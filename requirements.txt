@@ -1,0 +1,23 @@
+# --- Standard Data Processing & Math ---
+pandas>=2.0.0
+numpy>=1.23.0,<2.0.0
+scipy>=1.10.0
+
+# --- File Handling & Progress ---
+h5py>=3.8.0
+tqdm>=4.65.0
+
+# --- Computer Vision ---
+opencv-python>=4.8.0
+
+# --- Web Socket & Serialization (For VLA Inference) ---
+websocket-client>=1.6.0
+msgpack>=1.0.5
+msgpack-numpy>=0.4.8
+
+# ====================================================================
+# IMPORTANT NOTE FOR USERS:
+# Omniverse and Isaac Sim core libraries (omni.*, pxr, carb, etc.) 
+# as well as PyTorch are natively provided by the Isaac Sim 5.0.0 
+# embedded Python environment. DO NOT install them via pip.
+# ====================================================================
