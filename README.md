@@ -1,6 +1,11 @@
 # 🚁 AIR-VLA: Vision-Language-Action Systems for Aerial Manipulation
 
-Official repository for [**AIR-VLA**](https://arxiv.org/abs/2601.21602), the first Vision-Language-Action (VLA) benchmark and dataset specifically designed for Aerial Manipulation Systems (AMS).
+[![Venue: ICML 2026](https://img.shields.io/badge/Venue-ICML%202026-blue.svg)](https://icml.cc/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Isaac Sim](https://img.shields.io/badge/Isaac_Sim-5.0.0-green.svg)](https://developer.nvidia.com/isaac-sim)
+[![Paper](https://img.shields.io/badge/arXiv-2601.21602-b31b1b.svg)](https://arxiv.org/abs/2601.21602)
+
+Official repository for [**AIR-VLA**](https://arxiv.org/abs/2601.21602) (**Accepted to ICML 2026**), the first Vision-Language-Action (VLA) benchmark and dataset specifically designed for Aerial Manipulation Systems (AMS).
 
 While existing VLA models excel in ground-based tasks, AIR-VLA bridges the gap to 3D aerial environments by addressing unique challenges: floating-base dynamics, strong UAV-manipulator coupling, and multi-step long-horizon operational tasks.
 
@@ -19,8 +24,7 @@ We are currently releasing the first subset of our HDF5 dataset (near 1000 episo
 
 Due to GitHub's file size limits, the massive HDF5 datasets are hosted on Hugging Face:
 
-* **HDF5 Dataset:** \[https://huggingface.co/datasets/SpencerSon2001/AIR-VLA_hdf5_datasets\]
-
+* **HDF5 Dataset:** [https://huggingface.co/datasets/SpencerSon2001/AIR-VLA_hdf5_datasets](https://huggingface.co/datasets/SpencerSon2001/AIR-VLA_hdf5_datasets)
 
 ## 🛠️ Installation & Setup
 
@@ -38,7 +42,6 @@ export ISAAC_PYTHON=~/.local/share/ov/pkg/isaac-sim-5.0.0/python.sh
 
 # Install requirements
 $ISAAC_PYTHON -m pip install -r requirements.txt
-```
 
 ## 🚀 Usage Guide
 
